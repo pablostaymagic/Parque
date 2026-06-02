@@ -66,5 +66,5 @@ app.get('/test-db', async (req, res) => {
 // Inicio del servidor
 app.listen(PORT, () => {
   console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
-  console.log('Base de datos conectada:', process.env.DB_NAME || 'eaglepark_db');
+  console.log(`Puerto Render asignado: ${PORT}`);
 });
